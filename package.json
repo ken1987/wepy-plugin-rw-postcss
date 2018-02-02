@@ -1,0 +1,23 @@
+{
+  "name": "wepy-plugin-rw-postcss",
+  "version": "0.0.4",
+  "description": "wepy postcss plugin",
+  "keywords": ["wepy", "postcss"],
+  "license": "MIT",
+  "main": "index.js",
+  "author": {
+    "name": "redwing-team",
+    "url": "https://github.com/redwing-team"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "dependencies": {
+    "postcss": "^6.0.17",
+    "postcss-load-config": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb-base": "^12.1.0"
+  }
+}
