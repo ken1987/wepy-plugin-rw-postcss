@@ -62,13 +62,14 @@ module.exports = class {
         file
       })
     }
+
     getConfig(file, code)
       .then(({ css }) => {
         op.code = css
         op.next()
       })
       .catch(e => {
-        console.log(e)
+        console.error(e)
         op.err = e
         op.catch()
       })
