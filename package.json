@@ -9,6 +9,8 @@
     "name": "redwing-team",
     "url": "https://github.com/redwing-team"
   },
+  "repository": "ken1987/wepy-plugin-rw-postcss",
+  "bugs": "https://github.com/ken1987/wepy-plugin-rw-postcss/issues/",
   "engines": {
     "node": ">= 8.0.0"
   },
